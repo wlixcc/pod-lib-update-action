@@ -1,0 +1,24 @@
+name: 'pod lib update'
+description: 'use this action auto generate new version of pod library'
+#https://help.github.com/en/actions/building-actions/metadata-syntax-for-github-actions
+inputs:
+  spec_repo_url:
+    description: 'url of your spec repo'
+    required: true
+  spec_file_path:
+    description: '*.podspec file path in your lib repo, relative path'
+    required: true
+  lint_args:
+    description: 'spec lint args, such as --allow-warnings'
+    required: false
+  push_args:
+    description: 'repo push args, such as --allow-warnings'
+    required: false
+
+runs:
+  using: 'node12'
+  main: 'index.js'
+
+branding:
+  icon: 'arrow-up'
+  color: 'purple'
