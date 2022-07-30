@@ -3,16 +3,16 @@ description: 'use this action auto generate new version of pod library'
 #https://help.github.com/en/actions/building-actions/metadata-syntax-for-github-actions
 inputs:
   spec_repo_url:
-    description: 'url of your spec repo'
+    description: 'Url of your spec repo'
     required: true
   spec_file_path:
-    description: '*.podspec file path in your lib repo, relative path'
+    description: 'YouSpecFileName.podspec file path in your lib repo, relative path'
     required: true
   lint_args:
-    description: 'spec lint args, such as --allow-warnings'
+    description: 'Spec lint args, such as --allow-warnings'
     required: false
   push_args:
-    description: 'repo push args, such as --allow-warnings'
+    description: 'Repo push args, such as --allow-warnings'
     required: false
 
 runs:
