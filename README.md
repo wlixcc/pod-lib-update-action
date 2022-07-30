@@ -1,7 +1,6 @@
 # Pod Lib Update Action
 
-
-> When your private library code is adjusted, all you have to do is submit the code and tag it. Then action will automatically generate a new version of the library for you. No need to manually modify the spec file and submit to the spec repository
+> When your private pod repo updated, all you have to do is submit the code and tag it. Then action will automatically generate a new version of the library for you. No need to manually modify the spec file and submit to the spec repository
 
 
 > [中文参考链接](https://zhuanlan.zhihu.com/p/108654090)
